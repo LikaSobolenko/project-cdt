@@ -1,0 +1,12 @@
+section {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #dde1be;
+}
+
+.header {
+    margin-top: 20px;
+}
