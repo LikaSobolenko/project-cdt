@@ -4,9 +4,30 @@ section {
     grid-template-rows: auto 1fr auto;
     max-width: 1000px;
     margin: 0px auto;
-    background-color: #dde1be;
 }
 
 .header {
     margin-top: 20px;
 }
+
+.wrapper-logo {    
+    position: relative;
+
+    img {        
+        position: absolute;
+        left: 400px;
+        z-index: 1;
+    }
+}
+
+.wrapper-leaf {    
+    position: relative;
+
+    img {        
+        position: absolute;
+        top: 100px;
+        left: 75px;
+        z-index: 1;
+    }
+}
+
