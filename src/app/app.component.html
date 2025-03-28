@@ -3,19 +3,26 @@
 
     <div>        
         <div class="wrapper-logo">
-            <img src="logo.svg"/>
+            <a routerLink="/main">
+                <img src="logo.svg"/>
+            </a>
         </div>
         <div class="wrapper-leaf">
             <img src="leaf1.svg"/>
         </div>
     </div>
 
-    <!-- <app-main></app-main> -->
-    <!-- <app-news></app-news> -->
-    <!-- <app-events></app-events> -->
-    <!-- <app-acknowledgment></app-acknowledgment> -->
-    <!-- <app-documents></app-documents> -->
-    <app-founders></app-founders>
+    <div class="wrapper-page">
+        <router-outlet />
+        <!-- <app-main></app-main> -->
+        <!-- <app-news></app-news> -->
+        <!-- <app-events></app-events> -->
+        <!-- <app-acknowledgment></app-acknowledgment> -->
+        <!-- <app-documents></app-documents> -->
+        <!-- <app-founders></app-founders> -->
+        <!-- <app-helps></app-helps> -->
+        <!-- <app-programms></app-programms> -->
+    </div>
 
     <app-footer></app-footer>
 </section>

@@ -1,7 +1,6 @@
 section {    
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     div{
         width: 700px;
         font-family: Roboto Slab;
@@ -21,21 +20,21 @@ h1 {
     margin-top: 150px;
 }
 
-h2 {
-    color: #912969;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    text-shadow: 0px 4px 4px #00000040;
-    margin-right: 40px;
-}
-
-a {
-    color: #912969;
-}
-
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    .item {
+        margin-right: 20px;
+    }
+
+    ul{
+        padding-inline-start: 10px;
+        line-height: 18px;
+    }
+
+    li {
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
 }

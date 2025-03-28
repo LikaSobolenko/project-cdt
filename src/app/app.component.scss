@@ -1,13 +1,9 @@
 section {
     height: 100vh;
     display: grid;
-    grid-template-rows: auto 100px 1fr auto;
+    grid-template-rows: auto 50px 1fr auto;
     max-width: 1000px;
     margin: 0px auto;
-}
-
-.header {
-    margin-top: 20px;
 }
 
 .wrapper-logo {    
@@ -15,6 +11,7 @@ section {
 
     img {        
         position: absolute;
+        top: -90px;
         left: 400px;
         z-index: 1;
     }
@@ -25,7 +22,7 @@ section {
 
     img {        
         position: absolute;
-        top: 100px;
+        top: 10px;
         left: 75px;
         z-index: 1;
     }

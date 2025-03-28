@@ -1,4 +1,19 @@
 .container {
+    height: 165px;
+    max-width: 800px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
+    background-image: url('../../../public/background-header.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 120px;
 }
