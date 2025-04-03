@@ -17,3 +17,13 @@ a {
 .icon {
     width: 120px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        height: 40px;
+        background-image: none;
+    }
+    .icon {
+        max-width: 80px;
+    }
+}

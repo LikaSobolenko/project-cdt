@@ -28,3 +28,32 @@ section {
     }
 }
 
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: flex-start;
+    }
+
+    .wrapper-logo {
+        position: static;
+        grid-row: 2;
+        img {
+            max-height: 100px;
+            position: static;
+            transform: none;
+            top: auto;
+            left: auto;
+            max-width: 100%; 
+        }
+    }
+    
+    .wrapper-leaf {    
+        display: none
+    }
+
+    .footer {
+        // margin-top: auto; 
+    }
+}

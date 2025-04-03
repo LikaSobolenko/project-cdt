@@ -6,3 +6,36 @@
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+.info {
+    width: 50vw;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 5.5%;
+
+    padding: 10px 20px;
+    background: #EBCFE0C7;
+    border: 2px solid #3534347D;
+    box-shadow: 9px 0px 11px 0px #00000040;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-image: none;
+    }
+    .info {
+        width: 80vw;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 5.5%;
+    
+        padding: 0px 20px;
+        background: #EBCFE0C7;
+        border: 2px solid #3534347D;
+        box-shadow: 9px 0px 11px 0px #00000040;
+        border-radius: 10px;
+    }
+}
