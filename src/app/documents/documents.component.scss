@@ -38,6 +38,14 @@ a {
 .container {
     display: flex;
     justify-content: space-around;
+
+    div {
+        max-width: fit-content;
+    }
+
+    img {
+        max-width: 200px;
+    }
 }
 
 @media (max-width: 768px) {
