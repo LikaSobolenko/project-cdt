@@ -40,3 +40,19 @@ h3 {
 .qr {
     max-width: 400px;
 }
+
+@media (max-width: 768px) {
+    section {
+        div{
+            width: 80vw;
+        }
+    }
+
+    img, .qr {
+        max-width: 80vw;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+}

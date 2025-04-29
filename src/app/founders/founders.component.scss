@@ -39,6 +39,7 @@ h1 {
     .founders {
     display: flex;
     justify-content: center;
-    margin-top: 0px
+    margin-top: 0px;
+    flex-wrap: wrap;
     }
 }
