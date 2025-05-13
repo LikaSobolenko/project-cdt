@@ -12,7 +12,7 @@ export class DocumentsComponent {
   constructor(private elRef: ElementRef) {}
 
   ngOnInit() {
-    Fancybox.bind(this.elRef.nativeElement, '[data-fancybox]', {
+    Fancybox.bind(this.elRef.nativeElement, '[data-fancybox="gallery"]', {
       closeButton: "auto"
     });
   }
